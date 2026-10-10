@@ -3,7 +3,6 @@ import {
   SiApollographql,
   SiAstro,
   SiCss,
-  SiDocker,
   SiElectron,
   SiExpress,
   SiFramer,
@@ -74,10 +73,9 @@ export const SKILLS: Record<string, Skill[]> = {
     { name: "MySQL", icon: SiMysql },
     { name: "MongoDB", icon: SiMongodb },
   ],
-  devops: [{ name: "Docker", icon: SiDocker }],
 };
 
-export const SKILL_ORDER = ["languages", "frontend", "backend", "database", "devops"] as const;
+export const SKILL_ORDER = ["languages", "frontend", "backend", "database"] as const;
 
 export type Experience = {
   company: string;
@@ -94,48 +92,31 @@ export type Experience = {
 
 export const WORK: Experience[] = [
   {
-    company: "Taeyen",
-    href: "https://taeyen.com/",
-    location: "Remote",
-    title: "Front-end Developer",
-    start: "February 2025",
-    end: "March 2026",
-    description: "",
+    company: "Personal Projects",
+    location: "Dire Dawa, Ethiopia",
+    title: "Full Stack Developer",
+    start: "2023",
+    end: "Present",
+    description: "Building personal web projects to practice and improve my full-stack skills.",
     bullets: [
-      "Engineered a high-performance Client Dashboard and Agency module using Next.js, optimizing the architecture with App Router and Server Components to achieve a 30% reduction in load times.",
-      "Established scalable coding standards and a modular project structure that minimized technical debt and streamlined team collaboration.",
-      "Integrated robust bug fixes and stable UI components, resulting in a 40% increase in platform stability.",
-      "These architectural enhancements significantly improved long-term maintainability and reduced developer onboarding time across the codebase.",
+      "Designed and built responsive front-ends using HTML, CSS, and JavaScript.",
+      "Built REST APIs and server-side logic with Node.js and Express.js.",
+      "Designed database schemas and wrote queries using PostgreSQL.",
     ],
-    badges: ["Next.js", "NestJS", "GraphQL", "Tailwind CSS"],
-  },
-  {
-    company: "NinjaBages",
-    href: "https://ninjapages.com.br/",
-    location: "Remote",
-    title: "Front-end Developer",
-    start: "June 2024",
-    end: "June 2025",
-    description: "",
-    bullets: [
-      "Spearheaded the development and optimization of static HTML pages using Tailwind CSS, crafting scalable templates for a pre-existing page builder.",
-      "Integrated dynamic UI components with rigorous testing to ensure compatibility within the builder.",
-      "Boosted page load speed by 20%, enhancing overall responsiveness.",
-      "Improved template customization features, driving a 15% increase in user satisfaction based on platform feedback.",
-    ],
-    badges: ["HTML", "Tailwind CSS"],
+    badges: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "PostgreSQL"],
   },
 ];
 
 export const EDUCATION: Experience[] = [
   {
-    company: "Thebes Academy",
-    href: "https://thebes.edu.eg/",
-    location: "Egypt",
-    title: "Computer Science Bachelors",
+    company: "Dire Dawa University",
+    href: "https://www.ddu.edu.et/",
+    location: "Dire Dawa, Ethiopia",
+    title: "Bachelor of Science in Software Engineering",
     start: "2022",
-    end: "2026",
-    description: "Studying the fundamentals of computer science, software engineering, and modern web technologies.",
-    badges: ["CS"],
+    end: "Present",
+    description:
+      "Pursuing a Bachelor of Science in Software Engineering, studying core computer science and software development.",
+    badges: ["Software Engineering"],
   },
 ];

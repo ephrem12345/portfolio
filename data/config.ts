@@ -1,40 +1,31 @@
 export const DATA = {
-  name: "Eyad Ahmed",
-  initials: "Fezex",
-  url: "https://fezex.vercel.app",
-  location: "Egypt",
-  locationLink: "https://www.google.com/maps/place/Egypt",
+  name: "Ephrem Getnet",
+  initials: "EG",
+  url: "https://ephrem12345.vercel.app",
+  location: "Dire Dawa, Ethiopia",
+  locationLink: "https://www.google.com/maps/place/Dire+Dawa+University",
   description:
-    "Fullstack Developer specializing in React, Next.js & TypeScript. Building high-performance, accessible UIs and robust backends.",
+    "Software Engineer and Full Stack Developer building with HTML, CSS, JavaScript, and Node.js.",
   summary:
-    "I'm a Fullstack Web Developer with 3+ years of experience focused on the Front-End. I specialize in building high-performance, accessible interfaces using React, Next.js, Astro, and TypeScript. Currently, I am deep-diving into Backend Engineering and Software Design to bridge the gap between sleek UI and robust Node.js/PostgreSQL systems, while exploring motion design to push the modern web forward.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/112803756?v=4",
+    "I'm a Full Stack Developer and Software Engineering student at Dire Dawa University. I build clean, fast web applications with HTML, CSS, and JavaScript on the front-end, and Node.js, Express.js, and PostgreSQL on the back-end. Right now I'm focused on turning ideas into real, working projects and sharpening my skills one step at a time.",
+  avatarUrl: "/photo.jpg",
   ogImage: "/api/og",
-  githubUsername: "Eyadfezex",
-  skills: [
-    "React",
-    "Next.js",
-    "Astro",
-    "TypeScript",
-    "Node.js",
-    "PostgreSQL",
-  ],
+  githubUsername: "ephrem12345",
+  skills: ["HTML", "CSS", "JavaScript", "Node.js", "Express.js", "PostgreSQL"],
 } as const;
 
 export const HERO = {
-  greeting: "Hi, I'm Eyad",
+  greeting: "Hi, I'm Ephrem",
   subtitle:
     "Front-end obsessed Fullstack Dev crafting sleek UIs by day, mastering Software Architecture by night. Let's connect on LinkedIn.",
 };
 
 export const SOCIALS = {
-  linkedin: "https://www.linkedin.com/in/eyad-abosenna-13382a273/",
-  instagram: "https://www.instagram.com/eyad_ahmed_550/",
-  github: "https://github.com/Eyadfezex",
-  email: "mailto:you@example.com",
+  github: "https://github.com/ephrem12345",
+  email: "mailto:gwbwyteya44739172@gmail.com",
 };
 
 export const CONTACT =
-  "Want to chat? Just shoot me a dm with a direct question on instagram and I'll respond whenever I can. I will ignore all soliciting.";
+  "Want to chat? Just shoot me an email and I'll get back to you whenever I can. I will ignore all soliciting.";
 
-export const BUY_ME_A_COFFEE = "fezex";
+export const BUY_ME_A_COFFEE = "Ephrem";

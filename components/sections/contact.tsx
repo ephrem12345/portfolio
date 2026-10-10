@@ -6,7 +6,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import { Badge } from "@/components/ui/badge";
 import { Section } from "@/components/section";
 import { BlurFade } from "@/components/magicui/blur-fade";
-import { CONTACT, SOCIALS } from "@/data/config";
+import { SOCIALS } from "@/data/config";
 
 function SnowGround() {
   const ref = useRef<HTMLDivElement>(null);
@@ -45,16 +45,16 @@ export function Contact() {
       </BlurFade>
       <BlurFade delay={0.12}>
         <p className="max-w-md text-pretty text-sm text-muted-foreground">
-          {CONTACT.split("instagram")[0]}
+          Want to chat? Just{" "}
           <Link
-            href={SOCIALS.instagram}
+            href={SOCIALS.email}
             target="_blank"
             rel="noreferrer"
             className="font-medium text-blue-500 underline underline-offset-4"
           >
-            on instagram
-          </Link>
-          {CONTACT.split("instagram")[1]}
+            send me an email
+          </Link>{" "}
+          and I&apos;ll get back to you whenever I can. I will ignore all soliciting.
         </p>
       </BlurFade>
     </Section>
